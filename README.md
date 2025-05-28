@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/user-attachments/assets/0518c45f-4265-4230-a38d-fa0470d7d2b0)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+First, we’ll create a resource group in Azure named osTicket. Then, we’ll create a virtual machine inside that group, using Windows 10  and making sure that he has at least a 2 vCPU. 
 </p>
 <br />
 
@@ -40,7 +40,7 @@ Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Onc
 ![image](https://github.com/user-attachments/assets/a02112ea-2fdc-475e-998b-14add626382e)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Now, we’re going to use Remote Desktop Protocol (RDP) to connect to the virtual machine using its IPv4 address.
 </p>
 <br />
 
