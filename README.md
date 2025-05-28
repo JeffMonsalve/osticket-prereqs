@@ -106,7 +106,7 @@ Then, open IIS Manager as an administrator, register PHP so IIS can run PHP file
 ![image](https://github.com/user-attachments/assets/4488f474-94d0-40e6-9ffd-28a1eb856577)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+After extracting osTicket-v1.15.8.zip from the osTicket-Installation-Files folder, copy the upload directory to C:\inetpub\wwwroot and rename it to osTicket. This step makes the osTicket files available to the web server so you can install and access the helpdesk through your browser.
 </p>
 <br />
 
@@ -116,7 +116,7 @@ Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Onc
 ![image](https://github.com/user-attachments/assets/0ac73c58-84ea-4866-a33f-620f1c1e1899)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Open IIS Manager and restart the server. Then, navigate to Sites > Default Web Site > osTicket, and on the right-hand side, click *“Browse .80” to launch osTicket in your default web browser.
 </p>
 <br />
 
