@@ -126,7 +126,7 @@ Open IIS Manager and restart the server. Then, navigate to Sites > Default Web S
 ![image](https://github.com/user-attachments/assets/6d178302-5dae-4b2f-a709-14aa3ee26015)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Return to IIS Manager, restart the server, then go to Sites > Default Web Site > osTicket, open PHP Manager, and enable php_intl.dll, php_opcache.dll, and php_imap.dll. Refresh the osTicket page to confirm the Intl Extension is enabled.
 </p>
 <br />
 
@@ -135,7 +135,7 @@ Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Onc
 ![image](https://github.com/user-attachments/assets/059d0556-56e8-4491-82bc-6e191e86c253)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Next, navigate to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file to ost-config.php within the same directory.
 </p>
 <br />
 
