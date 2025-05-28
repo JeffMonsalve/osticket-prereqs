@@ -97,7 +97,7 @@ Next, we install VC_redist.x86.exe to add system files needed for PHP to run, th
 ![image](https://github.com/user-attachments/assets/ab6bd7f7-6e80-4ccf-b2e4-5f87cee67cbc)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Then, open IIS Manager as an administrator, register PHP so IIS can run PHP files, and click “Restart” to apply the changes.
 </p>
 <br />
 
