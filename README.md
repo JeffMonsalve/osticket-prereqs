@@ -68,7 +68,7 @@ To enable IIS, go to Control Panel > Turn Windows Features On or Off, check Inte
 ![image](https://github.com/user-attachments/assets/d4413cf4-ce4b-4bcd-9b9f-80cbc6471325)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+From the osTicket installation folder on the VM’s desktop, we locate and install PHP Manager (PHPManagerForIIS_V1.5.0.msi) to help manage PHP settings and enable required extensions for osTicket. In the same folder, install the Rewrite Module, which makes  the URL shorter and easier to read.
 </p>
 <br />
 
