@@ -58,7 +58,7 @@ Once we’re connected to the virtual machine, we download the osTicket-Installa
 ![image](https://github.com/user-attachments/assets/7607ba3c-2c67-48c8-b891-9ec016421a14)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+To enable IIS, go to Control Panel > Turn Windows Features On or Off, check Internet Information Services, expand it, go to World Wide Web Services > Application Development Features, select CGI, and click OK. (edit pic)
 </p>
 <br />
 
