@@ -144,7 +144,7 @@ Next, navigate to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and r
 ![image](https://github.com/user-attachments/assets/e0334842-8ab5-490f-a1ea-a740e34b7177)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Next, assign the correct permissions to ost-config.php by right-clicking the file and selecting “Properties.” Under the Security tab, disable inheritance, remove all existing permissions, and then grant “Everyone” full control access.
 </p>
 <br />
 
@@ -153,13 +153,17 @@ Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Onc
 ![image](https://github.com/user-attachments/assets/250c696d-6d00-4583-88d8-98e01209eab6)
 ![image](https://github.com/user-attachments/assets/171542a4-31f7-4753-8975-b8c0bdf34fc8)
 ![image](https://github.com/user-attachments/assets/5c8281be-f553-4eb1-b284-3b5e7740130a)
-
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Open the “osTicket-Installation-Files” folder, install HeidiSQL, and launch it. In the Session Manager, click +New, set the User to root and Password to ROOT, then click Open to connect to the database.
 </p>
 <br />
 
 
 ![image](https://github.com/user-attachments/assets/77839da6-d0b5-43ad-b246-febdc0c3fefe)
 ![image](https://github.com/user-attachments/assets/5f9d9a78-7b74-41d6-a626-9b2772e8c04c)
+</p>
+<p>
+Lastly, return to the osTicket webpage and complete the setup by filling out the System Settings, Admin User, and Database Settings sections—using root as both the MySQL username and password.
+</p>
+<br />
