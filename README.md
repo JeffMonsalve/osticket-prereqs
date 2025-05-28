@@ -49,7 +49,7 @@ Now, we’re going to use Remote Desktop Protocol (RDP) to connect to the virtua
 ![image](https://github.com/user-attachments/assets/970e440c-05ba-430f-8142-d08b3cfec2ec)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Once we’re connected to the virtual machine, we download the osTicket-Installation-Files.zip and extract it to the desktop. The unzipped folder contains everything needed to install osTicket.
 </p>
 <br />
 
