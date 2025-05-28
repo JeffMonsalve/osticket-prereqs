@@ -78,7 +78,7 @@ From the osTicket installation folder on the VM’s desktop, we locate and insta
 ![image](https://github.com/user-attachments/assets/7da7bee9-73cd-4624-a1f1-40382105ece4)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Next, we create a folder called C:\PHP. Then, we unzip the file PHP 7.3.8 (named php-7.3.8-nts-Win32-VC15-x86.zip) and extract all its contents into the C:\PHP directory.
 </p>
 <br />
 
@@ -88,7 +88,7 @@ Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Onc
 ![image](https://github.com/user-attachments/assets/9347d20a-6ee0-48c1-b57c-04a1fde11788)
 </p>
 <p>
-Next, we connect to the domain controller (DC-1) using Remote Desktop (RDP). Once logged in, we disable the firewall for the domain, private, and public network profiles. This ensures that Client-1 can successfully ping DC-1’s private IP address later in the tutorial without any issues.
+Next, we install VC_redist.x86.exe to add system files needed for PHP to run, then install MySQL (mysql-5.5.62-win32.msi) to set up the database that stores osTicket’s data like tickets, users, and settings.
 </p>
 <br />
 
