@@ -49,7 +49,7 @@ Now, we’re going to use Remote Desktop Protocol (RDP) to connect to the virtua
 ![image](https://github.com/user-attachments/assets/970e440c-05ba-430f-8142-d08b3cfec2ec)
 </p>
 <p>
-Once we’re connected to the virtual machine, we download the osTicket-Installation-Files.zip and extract it to the desktop. The unzipped folder contains everything needed to install osTicket.
+Once we’re connected to the virtual machine, we download the osTicket-Installation-Files.zip frim this link:https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0 and extract it to the desktop. The unzipped folder contains everything needed to install osTicket.
 </p>
 <br />
 
