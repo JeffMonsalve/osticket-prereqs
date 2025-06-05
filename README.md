@@ -58,7 +58,7 @@ Once we’re connected to the virtual machine, we download the osTicket-Installa
 ![image](https://github.com/user-attachments/assets/7607ba3c-2c67-48c8-b891-9ec016421a14)
 </p>
 <p>
-To enable IIS, go to Control Panel > Turn Windows Features On or Off, check Internet Information Services, expand it, go to World Wide Web Services > Application Development Features, select CGI, and click OK. (edit pic)
+To enable IIS, go to Control Panel > Turn Windows Features On or Off, check Internet Information Services, expand it, go to World Wide Web Services > Application Development Features, select CGI, and click OK.This lets your computer run websites like osTicket and make sure it can read and run PHP files properly. (edit pic)
 </p>
 <br />
 
